@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 
-	angular.module('shoppingApp',[])
+	angular.module('ShoppingListCheckOff',[])
 		.controller('ToBuyController',['ShoppingListCheckOffService', function(ShoppingListCheckOffService){
 			this.list = ShoppingListCheckOffService.getItems();
 
